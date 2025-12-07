@@ -16,6 +16,12 @@
                 padding: 0;
                 overflow: hidden;
             }
+            @font-face {
+                font-family: 'Mali'; /* Tên bạn muốn đặt cho font này */
+                src: url('./font/Mali.ttf') format('truetype'); /* Đường dẫn tới file font */
+                font-weight: normal;
+                font-style: normal;
+            }
         </style>
         <script type="text/javascript">
             var canvas = document.getElementById("canvas");
@@ -82,7 +88,7 @@
                 margin-left: -100px;
             }
             h4 {
-                font-family: "STKaiti";
+                font-family: "Mali", "STKaiti", sans-serif;
                 font-size: 40px;
                 color: #fff;
                 position: relative;
